@@ -8,6 +8,6 @@ setup(
     author_email='djm6cz@virginia.edu',
     description='Monte Carlo Simulator Package (Final Project)',
     packages=find_packages(),    
-    install_requires=['numpy', 'pandas', 'collections'],
+    install_requires=['numpy', 'pandas'],
 )
 
