@@ -163,7 +163,7 @@ n_rolls (int)
 
 OUTPUT
 
-*not stored* list of ints
+*not stored* (list of ints)
 
 '''
 
@@ -179,9 +179,10 @@ None
 
 OUTPUT
 
--private- (pd.DataFrame)
+N/A (private pd.DataFrame)
 
 '''
+
 
 **Class**
 
@@ -242,5 +243,82 @@ OUTPUT
 
 N/A (private pd.DataFrame either stacked or unstacked)  
 
+
+'''
+
+
+**Class** 
+
+`Analyzer()`
+
+'''
+
+This class takes the results of a single game and computes various descriptive statistical properties.
+
+'''
+
+**Methods**
+
+`__init__(self, game)`
+
+'''
+
+PURPOSE: initialize an Analyzer object
+
+INPUTS
+
+game (already instantiated Game object)
+
+OUTPUT
+
+None
+
+'''
+
+`jackpot(self)`
+
+'''
+
+PURPOSE: compute how many times the game resulted in all identical faces
+
+INPUTS
+
+None
+
+OUTPUT
+
+total_jackpots (int)
+
+'''
+
+`combo(self)`
+
+'''
+
+PURPOSE: compute the distinct combinations of faces rolled, along with their counts
+
+INPUTS
+
+None
+
+OUTPUT
+
+None
+
+'''
+
+`face_counts(self)`:
+
+'''
+
+PURPOSE: compute how many times a given face is rolled in each event
+
+INPUTS
+
+None
+
+OUTPUT
+
+None
 
 '''
