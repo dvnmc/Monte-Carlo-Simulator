@@ -99,3 +99,11 @@ Each analysis method also returns a unique DataFrame
 `analysis.combo_df`
 
 `analysis.face_counts_df`
+
+
+## API description
+
+### All Classes and Methods
+
+- Die
+- roll_die
