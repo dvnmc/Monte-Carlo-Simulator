@@ -11,7 +11,7 @@ Net ID: djm6cz
 
 
 ## Synopsis
-### Installation Demo Code:
+### Installing:
 
 1. Clone the Monte-Carlo-Simulator GitHub repository to Desktop or any other desired directory
 
@@ -23,5 +23,20 @@ From the command line: `git clone https://github.com/dvnmc/Monte-Carlo-Simulator
 
 From the command line: `cd Monte-Carlo-Simulator/src; pip install ..`
 
+or
+
 In Jupyter Notebook: `!cd Monte-Carlo-Simulator/src; pip install ..`
+
+
+### Importing:
+
+1. Import the three classes Die, Game, and Analyzer as modules from the monte_carlo.py file
+
+`from monte_carlo import Die
+from monte_carlo import Game
+from monte_carlo import Class`
+
+
+
+
 
