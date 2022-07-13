@@ -322,3 +322,16 @@ OUTPUT
 None
 
 '''
+
+
+## Manifest
+### Files
+
+- LICENSE
+- README.md
+- setup.py
+- scenarios.ipynb
+- src
+    - __init__.py
+    - monte_carlo.py
+    - unit_tests.py
