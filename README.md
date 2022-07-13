@@ -332,6 +332,6 @@ None
 - setup.py
 - scenarios.ipynb
 - src
-    - __init_/\_.py
+    - \_\_init_\_\.py
     - monte_carlo.py
     - unit_tests.py
