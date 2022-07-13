@@ -50,30 +50,41 @@ Import the three classes Die, Game, and Analyzer as modules from the monte_carlo
 
 The user can create a die object by passing a list of numbers or strings to the Die class
 
-`die_1 = Die([1,2,3,4,5,6])`
+`die = Die([1,2,3,4,5,6])`
 
-`die_2 = Die(['H', 'T'])`
+or
+
+`die = Die(['H', 'T'])`
 
 Additionally, the user can change the weights of a die's faces as such
 
-`example_die_1.change_weight(face_val, new_weight)`
+`die.change_weight(1, 5)`
 
-face_val represents the face value that the user would like to assign a new weight (new_weight) to
+In this case, 1 represents the face (or side) marked 1 on a six sided die and 5 is the new weight assigned to that face (all faces initially default to a weight of 1)
 
 
 ### Playing Games:
 
 The user can create a game object by passing a list of already instantiated similar Die objects to the Game class
 
-`game_1 = Game([die_1, die_1, die_1])`
+`game = Game([die, die, die])`
 
 Once a game object is instantiated, the user can use the following lines of code to play a game by rolling the dice N times -- in this example N = 10
 
-`game_1.play(10)`
+`game.play(10)`
 
 The user can see the results of the rolls by using the show method
 
-`game_1.show()`
+`game.show()`
+
+
+### Analyzing Games:
+
+The user can create an analysis object by passing a game object to the Analyzer class
+
+`analysis = Analyzer(game)`
+
+
 
 
 
