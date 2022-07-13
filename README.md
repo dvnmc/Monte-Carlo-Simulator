@@ -11,15 +11,17 @@ Net ID: djm6cz
 
 
 ## Synopsis
-### Demo Code:
+### Installation Demo Code:
 
-Clone Github repo to Desktop or other desired directory from terminal:
+1. Clone the Monte-Carlo-Simulator GitHub repository to Desktop or any other desired directory
 
-git clone https://github.com/dvnmc/Monte-Carlo-Simulator.git
+From the command line: `cd <Directory>`
 
-After successfully cloning the repo to desktop, run the following to install the Monte-Carlo-Simulator package:
+From the command line: `git clone https://github.com/dvnmc/Monte-Carlo-Simulator.git`
 
-From the terminal: `cd Monte-Carlo-Simulator/src; pip install ..`
+2. After successfully cloning the repository, run the following to install the Monte-Carlo-Simulator package:
 
-From Jupyter Notebook `!cd Monte-Carlo-Simulator/src; pip install ..`
+From the command line: `cd Monte-Carlo-Simulator/src; pip install ..`
+
+In Jupyter Notebook: `!cd Monte-Carlo-Simulator/src; pip install ..`
 
