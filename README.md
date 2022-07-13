@@ -182,3 +182,65 @@ OUTPUT
 -private- (pd.DataFrame)
 
 '''
+
+**Class**
+
+`Game()`
+
+'''
+
+This class is used to create a game that consists of rolling of one or more dice 
+of the same kind. The dice can be rolled one or more times. 
+
+'''
+
+**Methods**
+
+`__init__(self, dice)`
+
+'''
+
+PURPOSE: initialize a Game object 
+
+INPUTS
+
+dice (list of already instantiated similar Die objects)
+
+OUTPUT
+
+None
+
+'''
+
+`play(self, n_rolls)`
+
+'''
+
+PURPOSE: roll the dice a specified number of times
+
+INPUTS
+
+n_rolls (int)
+
+OUTPUT
+
+None
+
+'''
+
+`show(self, wide_or_narrow = 'wide')`
+
+'''
+
+PURPOSE: show the user the results of the most recent play
+
+INPUTS
+
+wide_or_narrow (str, either "wide" or "narrow")
+
+OUTPUT   
+
+N/A (private pd.DataFrame either stacked or unstacked)  
+
+
+'''
