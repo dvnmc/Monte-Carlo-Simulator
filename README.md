@@ -329,8 +329,8 @@ None
 
 - LICENSE
 - README.md
-- setup.py
 - scenarios.ipynb
+- setup.py
 - src
     - \_\_init_\_\.py
     - monte_carlo.py
