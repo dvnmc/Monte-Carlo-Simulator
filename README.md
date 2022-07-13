@@ -67,7 +67,7 @@ The user can create a game object by passing a list of already instantiated simi
 
 `game_1 = Game([die_1, die_1, die_1])`
 
-Once a game object is instantiated, the user can use the following lines of code to play a game by rolling the dice N times
+Once a game object is instantiated, the user can use the following lines of code to play a game by rolling the dice N times -- in this example N = 10
 
 `game_1.play(10)`
 
