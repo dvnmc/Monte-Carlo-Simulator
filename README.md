@@ -84,10 +84,18 @@ The user can create an analysis object by passing a game object to the Analyzer 
 
 `analysis = Analyzer(game)`
 
+There are several ways in which games can be analyzed including through jackpot count (all identical faces), combination count (distinct combinations of faces), and face count (how many times a given face is rolled in each event)
 
+`analysis.jackpot()`
 
+`analysis.combo()`
 
+`analysis.face_counts()`
 
+Each analysis method also returns a unique DataFrame
 
+`analysis.jackpot_df`
 
+`analysis.combo_df`
 
+`analysis.face_counts_df`
