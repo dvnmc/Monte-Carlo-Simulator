@@ -389,8 +389,9 @@ Each analysis method also returns a unique DataFrame
 - README.md
 - scenarios.ipynb
 - setup.py
-- test_results.txt
 - src
     - \_\_init_\_\.py
     - monte_carlo.py
+- tests
     - unit_tests.py
+    - test_results.txt
