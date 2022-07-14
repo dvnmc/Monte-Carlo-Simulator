@@ -103,9 +103,7 @@ Each analysis method also returns a unique DataFrame
 
 ## API description
 
-### All Classes and Methods
-
-**Class**
+### Die Class
 
 `Die()`
 
@@ -117,7 +115,7 @@ Each analysis method also returns a unique DataFrame
         '''
 
 
-**Attributes**
+### Die Attributes
 
 `faces`
 
@@ -128,7 +126,7 @@ Each analysis method also returns a unique DataFrame
         '''
 
     
-**Methods**
+### Die Methods
     
 `__init__(self, faces)`
 
@@ -196,7 +194,7 @@ Each analysis method also returns a unique DataFrame
         '''
 
 
-**Class**
+### Game Class
 
 `Game()`
 
@@ -208,7 +206,7 @@ Each analysis method also returns a unique DataFrame
         '''
 
 
-**Attributes**
+### Game Attributes
 
 `dice`
 
@@ -219,7 +217,7 @@ Each analysis method also returns a unique DataFrame
         '''
 
 
-**Methods**
+### Game Methods
 
 `__init__(self, dice)`
 
@@ -271,7 +269,7 @@ Each analysis method also returns a unique DataFrame
         '''
 
 
-**Class** 
+### Analyzer Class
 
 `Analyzer()`
 
@@ -282,7 +280,7 @@ Each analysis method also returns a unique DataFrame
         '''
 
 
-**Attributes**
+### Analyzer Attributes
 
 `game`
 
@@ -317,7 +315,7 @@ Each analysis method also returns a unique DataFrame
         '''
 
 
-**Methods**
+### Analyzer Methods
 
 `__init__(self, game)`
 
@@ -367,7 +365,7 @@ Each analysis method also returns a unique DataFrame
 
         '''
 
-`face_counts(self)`:
+`face_counts(self)`
 
         '''
 
