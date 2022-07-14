@@ -115,6 +115,12 @@ This class is used to create a die that has N sides, or “faces”, and W weigh
 Additionally, the weights can be changed, and the die can be rolled to select a face.
 
 '''
+
+
+**Attributes**
+
+faces (array of ints, floats, or strings)
+
     
 **Methods**
     
@@ -195,6 +201,12 @@ of the same kind. The dice can be rolled one or more times.
 
 '''
 
+
+**Attributes**
+
+dice (list of already instantiated similar Die objects)
+
+
 **Methods**
 
 `__init__(self, dice)`
@@ -256,6 +268,18 @@ N/A (private pd.DataFrame either stacked or unstacked)
 This class takes the results of a single game and computes various descriptive statistical properties.
 
 '''
+
+
+**Attributes**
+
+game (already instantiated Game object)
+
+jackpot_df (pandas DataFrame with data regarding how many times the game resulted in all identical faces)
+
+combo_df (pandas DataFrame with data regarding the combinations of faces rolled, along with their counts)
+
+face_counts_df (pandas DataFrame with data regarding how many times a given face is rolled in each event)
+
 
 **Methods**
 
