@@ -119,7 +119,13 @@ Additionally, the weights can be changed, and the die can be rolled to select a 
 
 **Attributes**
 
-faces (array of ints, floats, or strings)
+`faces`
+
+'''
+
+array of ints, floats, or strings
+
+'''
 
     
 **Methods**
@@ -204,7 +210,13 @@ of the same kind. The dice can be rolled one or more times.
 
 **Attributes**
 
-dice (list of already instantiated similar Die objects)
+`dice`
+
+'''
+
+(list of already instantiated similar Die objects)
+
+'''
 
 
 **Methods**
@@ -272,13 +284,37 @@ This class takes the results of a single game and computes various descriptive s
 
 **Attributes**
 
-game (already instantiated Game object)
+`game`
 
-jackpot_df (pandas DataFrame with data regarding how many times the game resulted in all identical faces)
+'''
 
-combo_df (pandas DataFrame with data regarding the combinations of faces rolled, along with their counts)
+already instantiated Game object
 
-face_counts_df (pandas DataFrame with data regarding how many times a given face is rolled in each event)
+'''
+
+`jackpot_df`
+
+'''
+
+pandas DataFrame with data regarding how many times the game resulted in all identical faces)
+
+'''
+
+`combo_df` 
+
+'''
+
+pandas DataFrame with data regarding the combinations of faces rolled, along with their counts
+
+'''
+
+`face_counts_df `
+
+'''
+
+pandas DataFrame with data regarding how many times a given face is rolled in each event
+
+'''
 
 
 **Methods**
