@@ -1,0 +1,31 @@
+test_change_weight_invalid (__main__.MonteCarloTestSuite)
+PURPOSE: test whether change_weight method informs the user when ... ok
+test_change_weight_valid (__main__.MonteCarloTestSuite)
+PURPOSE: test whether change_weight method operates correctly ... ok
+test_combo (__main__.MonteCarloTestSuite)
+PURPOSE: test whether combo method operates correctly and allows the ... ok
+test_current_faces_and_weights (__main__.MonteCarloTestSuite)
+PURPOSE: test whether current_faces_and_weights method ... ok
+test_face_counts (__main__.MonteCarloTestSuite)
+PURPOSE: test whether face_counts method operates correctly and allows the ... ok
+test_init_Analyzer (__main__.MonteCarloTestSuite)
+PURPOSE: ensure Analyzer object is initialized correctly ... ok
+test_init_Die (__main__.MonteCarloTestSuite)
+PURPOSE: ensure Die object is initialized correctly ... ok
+test_init_Game (__main__.MonteCarloTestSuite)
+PURPOSE: ensure Game object is initialized correctly ... ok
+test_jackpot (__main__.MonteCarloTestSuite)
+PURPOSE: test whether jackpot method operates correctly and allows the ... ok
+test_play (__main__.MonteCarloTestSuite)
+PURPOSE: test whether play method operates correctly and ... ok
+test_roll_die (__main__.MonteCarloTestSuite)
+PURPOSE: test whether roll_die method operates correctly ... ok
+test_show_invalid (__main__.MonteCarloTestSuite)
+PURPOSE: test whether show method raises an exception to the ... ok
+test_show_valid (__main__.MonteCarloTestSuite)
+PURPOSE: test whether show method operates correctly and returns ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.266s
+
+OK
