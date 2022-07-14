@@ -109,12 +109,12 @@ Each analysis method also returns a unique DataFrame
 
 `Die()`
 
-'''
+        '''
 
-This class is used to create a die that has N sides, or “faces”, and W weights. 
-Additionally, the weights can be changed, and the die can be rolled to select a face.
+        This class is used to create a die that has N sides, or “faces”, and W weights. 
+        Additionally, the weights can be changed, and the die can be rolled to select a face.
 
-'''
+        '''
 
 
 **Attributes**
@@ -200,12 +200,12 @@ Additionally, the weights can be changed, and the die can be rolled to select a 
 
 `Game()`
 
-'''
+        '''
 
-This class is used to create a game that consists of rolling of one or more dice 
-of the same kind. The dice can be rolled one or more times. 
+        This class is used to create a game that consists of rolling of one or more dice 
+        of the same kind. The dice can be rolled one or more times. 
 
-'''
+        '''
 
 
 **Attributes**
@@ -275,11 +275,11 @@ of the same kind. The dice can be rolled one or more times.
 
 `Analyzer()`
 
-'''
+        '''
 
-This class takes the results of a single game and computes various descriptive statistical properties.
+        This class takes the results of a single game and computes various descriptive statistical properties.
 
-'''
+        '''
 
 
 **Attributes**
