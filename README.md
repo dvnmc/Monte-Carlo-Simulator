@@ -388,6 +388,7 @@ Each analysis method also returns a unique DataFrame
 - LICENSE
 - README.md
 - scenarios.ipynb
+- FinalProjectSubmission.ipynb
 - setup.py
 - src
     - \_\_init_\_\.py
