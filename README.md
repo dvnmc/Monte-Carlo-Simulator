@@ -12,7 +12,7 @@ Net ID: djm6cz
 
 ## Synopsis
 
-### Installing:
+### Installing
 
 First clone the Monte-Carlo-Simulator GitHub repository to Desktop or any other desired directory
 
@@ -35,7 +35,7 @@ In Jupyter Notebook:
 `!cd Monte-Carlo-Simulator/src; pip install ..`
 
 
-### Importing:
+### Importing
 
 Import the three classes Die, Game, and Analyzer as modules from the monte_carlo.py file
 
@@ -46,7 +46,7 @@ Import the three classes Die, Game, and Analyzer as modules from the monte_carlo
 `from monte_carlo import Class`
 
 
-### Creating Dice:
+### Creating Dice
 
 The user can create a die object by passing a list of numbers or strings to the Die class
 
@@ -63,7 +63,7 @@ Additionally, the user can change the weights of a die's faces as such
 In this case, 1 represents the face (or side) marked 1 on a six sided die and 5 is the new weight assigned to that face (all faces initially default to a weight of 1)
 
 
-### Playing Games:
+### Playing Games
 
 The user can create a game object by passing a list of already instantiated similar Die objects to the Game class
 
@@ -78,7 +78,7 @@ The user can see the results of the rolls by using the show method
 `game.show()`
 
 
-### Analyzing Games:
+### Analyzing Games
 
 The user can create an analysis object by passing a game object to the Analyzer class
 
