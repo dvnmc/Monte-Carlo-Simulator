@@ -121,79 +121,79 @@ Additionally, the weights can be changed, and the die can be rolled to select a 
 
 `faces`
 
-'''
+        '''
 
-array of ints, floats, or strings
+        array of ints, floats, or strings
 
-'''
+        '''
 
     
 **Methods**
     
 `__init__(self, faces)`
 
-'''
+        '''
 
-PURPOSE: initialize a Die object
+        PURPOSE: initialize a Die object
 
-INPUTS
+        INPUTS
 
-faces (array of ints, floats, or strings)
+        faces (array of ints, floats, or strings)
 
-OUTPUT
+        OUTPUT
 
-None
+        None
 
-'''
+        '''
 
 `change_weight(self, face_val, new_weight)`
 
-'''
+        '''
 
-PURPOSE: change the weight of a single side of a die object
+        PURPOSE: change the weight of a single side of a die object
 
-INPUTS
+        INPUTS
 
-face_val (int, float, or string)     
-new_weight (int or float) 
+        face_val (int, float, or string)     
+        new_weight (int or float) 
 
-OUTPUT
+        OUTPUT
 
-None 
+        None 
 
-'''
+        '''
 
 `roll_die(self, n_rolls = 1)`
 
-'''
+        '''
 
-PURPOSE: roll the die one or more times
+        PURPOSE: roll the die one or more times
 
-INPUTS
+        INPUTS
 
-n_rolls (int)
+        n_rolls (int)
 
-OUTPUT
+        OUTPUT
 
-*not stored* (list of ints)
+        *not stored* (list of ints)
 
-'''
+        '''
 
 `current_faces_and_weights(self)`
 
-'''
+        '''
 
-PURPOSE: show the die’s current set of faces and weights
+        PURPOSE: show the die’s current set of faces and weights
 
-INPUTS
+        INPUTS
 
-None
+        None
 
-OUTPUT
+        OUTPUT
 
-N/A (private pd.DataFrame)
+        N/A (private pd.DataFrame)
 
-'''
+        '''
 
 
 **Class**
@@ -212,63 +212,63 @@ of the same kind. The dice can be rolled one or more times.
 
 `dice`
 
-'''
+        '''
 
-(list of already instantiated similar Die objects)
+        (list of already instantiated similar Die objects)
 
-'''
+        '''
 
 
 **Methods**
 
 `__init__(self, dice)`
 
-'''
+        '''
 
-PURPOSE: initialize a Game object 
+        PURPOSE: initialize a Game object 
 
-INPUTS
+        INPUTS
 
-dice (list of already instantiated similar Die objects)
+        dice (list of already instantiated similar Die objects)
 
-OUTPUT
+        OUTPUT
 
-None
+        None
 
-'''
+        '''
 
 `play(self, n_rolls)`
 
-'''
+        '''
 
-PURPOSE: roll the dice a specified number of times
+        PURPOSE: roll the dice a specified number of times
 
-INPUTS
+        INPUTS
 
-n_rolls (int)
+        n_rolls (int)
 
-OUTPUT
+        OUTPUT
 
-None
+        None
 
-'''
+        '''
 
 `show(self, wide_or_narrow = 'wide')`
 
-'''
+        '''
 
-PURPOSE: show the user the results of the most recent play
+        PURPOSE: show the user the results of the most recent play
 
-INPUTS
+        INPUTS
 
-wide_or_narrow (str, either "wide" or "narrow")
+        wide_or_narrow (str, either "wide" or "narrow")
 
-OUTPUT   
+        OUTPUT   
 
-N/A (private pd.DataFrame either stacked or unstacked)  
+        N/A (private pd.DataFrame either stacked or unstacked)  
 
 
-'''
+        '''
 
 
 **Class** 
@@ -286,102 +286,102 @@ This class takes the results of a single game and computes various descriptive s
 
 `game`
 
-'''
+        '''
 
-already instantiated Game object
+        already instantiated Game object
 
-'''
+        '''
 
 `jackpot_df`
 
-'''
+        '''
 
-pandas DataFrame with data regarding how many times the game resulted in all identical faces)
+        pandas DataFrame with data regarding how many times the game resulted in all identical faces)
 
-'''
+        '''
 
 `combo_df` 
 
-'''
+        '''
 
-pandas DataFrame with data regarding the combinations of faces rolled, along with their counts
+        pandas DataFrame with data regarding the combinations of faces rolled, along with their counts
 
-'''
+        '''
 
 `face_counts_df `
 
-'''
+        '''
 
-pandas DataFrame with data regarding how many times a given face is rolled in each event
+        pandas DataFrame with data regarding how many times a given face is rolled in each event
 
-'''
+        '''
 
 
 **Methods**
 
 `__init__(self, game)`
 
-'''
+        '''
 
-PURPOSE: initialize an Analyzer object
+        PURPOSE: initialize an Analyzer object
 
-INPUTS
+        INPUTS
 
-game (already instantiated Game object)
+        game (already instantiated Game object)
 
-OUTPUT
+        OUTPUT
 
-None
+        None
 
-'''
+        '''
 
 `jackpot(self)`
 
-'''
+        '''
 
-PURPOSE: compute how many times the game resulted in all identical faces
+        PURPOSE: compute how many times the game resulted in all identical faces
 
-INPUTS
+        INPUTS
 
-None
+        None
 
-OUTPUT
+        OUTPUT
 
-total_jackpots (int)
+        total_jackpots (int)
 
-'''
+        '''
 
 `combo(self)`
 
-'''
+        '''
 
-PURPOSE: compute the distinct combinations of faces rolled, along with their counts
+        PURPOSE: compute the distinct combinations of faces rolled, along with their counts
 
-INPUTS
+        INPUTS
 
-None
+        None
 
-OUTPUT
+        OUTPUT
 
-None
+        None
 
-'''
+        '''
 
 `face_counts(self)`:
 
-'''
+        '''
 
-PURPOSE: compute how many times a given face is rolled in each event
+        PURPOSE: compute how many times a given face is rolled in each event
 
-INPUTS
+        INPUTS
 
-None
+        None
 
-OUTPUT
+        OUTPUT
 
-None
+        None
 
-'''
+        '''
 
 
 ## Manifest
