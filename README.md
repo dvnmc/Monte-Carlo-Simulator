@@ -389,9 +389,9 @@ Each analysis method also returns a unique DataFrame
 - scenarios.ipynb
 - FinalProjectSubmission.ipynb
 - setup.py
-- src
+- src/
     - \_\_init_\_\.py
     - monte_carlo.py
-- tests
+- tests/
     - unit_tests.py
     - test_results.txt
