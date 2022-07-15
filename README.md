@@ -294,7 +294,7 @@ Each analysis method also returns a unique DataFrame
 
         '''
 
-        pandas DataFrame with data regarding how many times the game resulted in all identical faces)
+        pandas DataFrame with data regarding how many times the game resulted in all identical faces
 
         '''
 
