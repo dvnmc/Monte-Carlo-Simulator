@@ -101,7 +101,7 @@ Each analysis method also returns a unique DataFrame
 `analysis.face_counts_df`
 
 
-## API description
+## API Description
 
 ### Die Class
 
