@@ -212,7 +212,7 @@ Each analysis method also returns a unique DataFrame
 
         '''
 
-        (list of already instantiated similar Die objects)
+        list of already instantiated similar Die objects
 
         '''
 
