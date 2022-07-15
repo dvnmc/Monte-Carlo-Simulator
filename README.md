@@ -265,7 +265,6 @@ Each analysis method also returns a unique DataFrame
 
         N/A (private pd.DataFrame either stacked or unstacked)  
 
-
         '''
 
 
